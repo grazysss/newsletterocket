@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #121214;
+    overflow: hidden;
+}
+
+.read_news {
+    width: 1064px;
+    height: 786px;
+    position: absolute;
+    z-index: -1;
+
+    margin: 0px 0px 0px 500px;
+}
+
+#container header {
+    position: absolute;
+    width: 720px;
+    height: 786px;
+    z-index: 1;
+
+    background-color: #121214;
+}
+
+#head div {
+    margin: 0px;
+    padding: 0px;
+
+    width: 0px 0px 0px 0px;
+}
+
+#head header {
+    display: flex;
+    justify-content: initial;
+
+    width: 389px;
+    height: 94px;
+
+    z-index: 2;
+    position: relative;/* 
+    border: 2px solid rgb(255, 255, 255); */
+    
+    margin: 50px 30px 0px;
+}
+
+#content {
+    width: 648px;
+    height: 102px;
+ 
+    z-index: 3;
+    position: relative;
+    gap: 9px;
+
+    margin: 92px 0px 0px 36px;
+}
+
+#content h1 {
+    margin: 0px;
+    padding: 0px 0px 8px 0px;
+
+    font-size: 24px;
+    font-weight: 700;
+    
+    color: #04D361;
+}
+
+#content h2 {
+    margin: 0px 0px 9px 0px;
+    padding: 0px;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+#content p {
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #A8A8A8;
+}
