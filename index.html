@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="root">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,10 +26,18 @@
     </div>
     <div id="email">
             <header>
-                <h1></h1>
-                <header></header>
-                <form></form>
+                <p>Insira seu e-mail:</p>
+                <header class="retangle"></header>
+                <header class="retangle1">
+                    <form action="/action_page.php">
+                        <h1 onclick="touchEvent()">oi@rocketseat.com</h1>
+                        <input type="text" name="e-mail" id="e-mail">
+                    </form>
+                </header>
+                <button class="submit" onclick="toggleMode()"><img src="./assets/send.svg"></button>
             </header>
     </div>
+    <div id="skip"><p>deixe-me ler primeiro</p><img src="./assets/arrow-right.svg"></div>
+    <script src="script.js"></script>
 </body>
 </html>

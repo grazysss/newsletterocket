@@ -10,6 +10,14 @@ body {
     overflow: hidden;
 }
 
+.root {
+    --hidden-h1: 7;
+}
+
+.hidden {
+    --hidden-h1: 9;
+}
+
 .read_news {
     width: 1064px;
     height: 786px;
@@ -89,4 +97,123 @@ body {
     letter-spacing: 1px;
     word-spacing: 1px;
     color: #A8A8A8;
+}
+
+#email {
+    margin: 50px 36px 0px;
+
+    width: 798px;
+    height: 84px;
+
+    z-index: 4;
+    position: relative;
+}
+
+#email p {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.retangle {
+    width: 5px;
+    height: 48px;
+    z-index: 5;
+    margin: 17px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+    position: absolute;
+
+    background-color:#04D361;
+}
+
+.retangle1 {
+    width: 750px;
+    height: 48px;
+    z-index: 6;
+    position: absolute;
+
+    margin: 17px 0px 0px 5px;
+    background-color: #FFFFFF;
+}
+
+.retangle1 input {
+    width: 720px;
+    height: 43px;
+    z-index: var(--hidden-h1);
+    position: absolute;
+    border-style: hidden;
+
+    margin: 2px 0px 0px 5px;
+}
+
+.retangle1 h1 {
+    z-index: 8;
+    position: absolute;
+    margin: 13px 0px 2px 10px;
+    float: left;
+    
+    width: 700px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6A6A6A;
+}
+
+.submit {
+    width: 50px;
+    height: 50px;
+
+    position: relative;
+    z-index: 9;
+    float: left;
+
+    margin: 17px 0px 0px 750px;
+    padding: 0px;
+    background-color: #8257E5;
+    border-color: #8257E5;
+}
+
+.submit img {
+    width: 24px;
+    height: 24px;
+
+    padding: 12px;
+}
+
+#skip {
+    width: 196px;
+    height: 24px;
+    
+    position: relative;
+    z-index: 10;
+
+    margin: 50px 36px;
+    padding: 0px;
+}
+
+#skip p {
+    position: relative;
+    z-index: 11;
+
+    margin: 0px;
+    padding: 2px;
+    float: left;
+
+    color: #8257E5;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#skip img {
+    position: absolute;
+    z-index: 12;
+
+    margin: 0px;
+    padding: 2px 5px 0px 0px;
 }
